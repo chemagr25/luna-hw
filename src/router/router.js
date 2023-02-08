@@ -11,7 +11,7 @@ import NotFound from '../shared/pages/NotFound.vue'
 const routes = [
   { path: '/', component: Home},
   { path: '/login', component: Login},
-  { path: '/Registro', component: Register},
+  { path: '/registro', component: Register},
   { path: '/Ayuda', component: Help},
   { path: '/contactanos', component: Contact},
   { path: '/:pathMatch(.*)*',  component: NotFound },

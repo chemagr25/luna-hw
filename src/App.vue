@@ -1,15 +1,17 @@
 <script>
-  import Navbar from './shared/components/NavBar.vue'
+import Navbar from './shared/components/NavBar.vue'
 export default {
-  components : {
+  components: {
     Navbar
   }
 }
 </script>
 
 <template>
-  <Navbar/>
-  <router-view></router-view>
+  <Navbar />
+  <router-view />
+
+
 </template>
 
 <style scoped>
